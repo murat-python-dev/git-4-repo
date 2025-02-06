@@ -3,7 +3,7 @@ import random
 number = random.randint(1,100)
 right = 5
 print(number)
-
+# yorum satiri eklendi.
 while right > 0:
   guess = int(input("Please enter your guess: "))
   right -= 1  # right = right - 1
